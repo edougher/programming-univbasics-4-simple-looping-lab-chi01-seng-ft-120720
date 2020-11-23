@@ -23,9 +23,9 @@ end
 new_string = "Hello Moon"
 loop_message_five_times(new_string)
 
-def output_array(array)
+def output_array(number_array)
   n = 0
-  array = array
+  array = number_array
   while array < array.length do
     puts array[n]
     n += 1
