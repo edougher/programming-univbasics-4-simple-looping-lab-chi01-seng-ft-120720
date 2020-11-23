@@ -25,8 +25,8 @@ loop_message_five_times(new_string)
 
 def output_array(number_array)
   n = 0
-  while n < array.length
-    puts array[n]
+  while n < number_array.length
+    puts number_array[n]
     n += 1
   end
   end
