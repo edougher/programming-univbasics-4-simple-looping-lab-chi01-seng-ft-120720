@@ -33,8 +33,14 @@ def output_array(number_array)
   number_array = [5,4,3,2,1]
   output_array(number_array)
 
-  def return_string_array(number_array)
-    puts number_array.to_s
-    end
-    number_array = [5,4,3,2,1]
-    output_array(number_array)
+  def return_string_array(array)
+  n = 0
+  int_array = []
+  while n < array.length
+    int_array.push(array[n].to_s)
+    n += 1
+  end
+  int_array
+  end
+    array = [5,4,3,2,1]
+  return_string_array(array)
