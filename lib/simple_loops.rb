@@ -40,7 +40,7 @@ def output_array(number_array)
     int_array.push(array[n].to_s)
     n += 1
   end
-  int_array
+   p int_array
   end
-    array = [5,4,3,2,1]
+  array = [5,4,3,2,1]
   return_string_array(array)
