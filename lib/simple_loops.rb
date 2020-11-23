@@ -32,3 +32,13 @@ def output_array(number_array)
   end
   number_array = [5,4,3,2,1]
   output_array(number_array)
+
+  def return_string_array(number_array)
+    n = 0
+    while n < number_array.length
+      puts number_array[n].to_s
+      n += 1
+    end
+    end
+    number_array = [5,4,3,2,1]
+    output_array(number_array)
